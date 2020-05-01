@@ -18,7 +18,7 @@ function App() {
     <div className="App">
     <Header resumeData={resumeData}/>
     <About resumeData={resumeData} />
-    <Resume resumeData={resumeData} />
+    {/* <Resume resumeData={resumeData} /> */}
     <Portfolio />
     <ContactUs resumeData={resumeData} />
     <Footer />

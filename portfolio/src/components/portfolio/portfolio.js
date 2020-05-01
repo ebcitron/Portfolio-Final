@@ -66,7 +66,7 @@ class Portfolio extends Component{
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
+              {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
                     <img alt="" src="images/portfolio/farmerboy.jpg" />
@@ -79,7 +79,7 @@ class Portfolio extends Component{
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item end *
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title>
@@ -93,7 +93,7 @@ class Portfolio extends Component{
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item end *
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title>
@@ -107,7 +107,7 @@ class Portfolio extends Component{
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item end *
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-08" title>
@@ -121,7 +121,7 @@ class Portfolio extends Component{
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div>  {/* item end */}
+              </div>  item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
           {/* Modal Popup
