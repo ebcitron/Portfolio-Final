@@ -21,8 +21,8 @@ class Header extends Component{
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">{resumeData.name}</h1>
-            <h3>I'm a {resumeData.role}</h3>
-            <h5>I {resumeData.roleDescription}</h5>
+            <h3>{resumeData.role}</h3>
+            {/* <h5>I {resumeData.roleDescription}</h5> */}
              <a className="smoothscroll" href="#about">about me</a>
    
             <hr />

@@ -17,11 +17,14 @@ class Resume extends Component{
                         <div className="twelve columns">
                           <h3>Lambda School</h3>
                           <p className="info">Full Stack Web Developer <span>•</span> <em className="date">April 2020</em></p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                          <p>Lambda School is a 9+ month computer science & software engineering program that provides an immersive hands-on curriculum with a focus on computer science, and fullstack web development. Students in this program...
+Approach all coding challenges using pair programming.
+Utilize agile software development and Git workflow on all projects. 
+Gain hands-on experience with client and server testing,
+Design original user experiences across a range of web and mobile platforms, from ideation, to wireframing, to final product.
+Complete all curriculum course work including: React, Redux, Node, Express, MongoDB, Jest, Python, Django, etc.
+Write production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single page applications.
+
                           </p>
                         </div>
                       </div> {/* item end */}
