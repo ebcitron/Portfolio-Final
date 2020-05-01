@@ -89,8 +89,8 @@
    }
 
    #contact label {
-      float: none;
-      width: 100%;
+      float: left;
+      width: 26%;
    }
 
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
