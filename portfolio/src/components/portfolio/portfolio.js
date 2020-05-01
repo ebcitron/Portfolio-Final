@@ -166,12 +166,12 @@ class Portfolio extends Component{
           <div id="modal-04" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
-              <h4>Into the Light</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <h4>BlackHole</h4>
+              <p>BlackHole is a personal note taking app with a twist, as It automatically "Burns" your notes after a period of time you specify when creating the note, making the entire experience a Great mental and emotional exercise</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://github.com/april-blackhole-lambda/frontend-app">Code Base</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
