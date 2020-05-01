@@ -7,24 +7,24 @@ class Portfolio extends Component{
             <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Work</h1>
             {/* portfolio-wrapper */}
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
                     <img alt="" src="images/portfolio/coffee.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Coffee</h5>
-                        <p>Illustrration</p>
+                        <h5>Brew Plans</h5>
+                        <p>Record and share your favorite Coffee Recipes</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
+              {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
                     <img alt="" src="images/portfolio/console.jpg" />
@@ -37,15 +37,15 @@ class Portfolio extends Component{
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
                     <img alt="" src="images/portfolio/judah.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>SpoofMail</h5>
+                        <p>SpoofMail automatically generates burner Email adress's that auto click verification</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -58,8 +58,8 @@ class Portfolio extends Component{
                     <img alt="" src="images/portfolio/into-the-light.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>BlackHole</h5>
+                        <p>Feel like getting your personal thoughts out? Share them with the BlackHole!</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -129,16 +129,17 @@ class Portfolio extends Component{
           <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
             <div className="description-box">
-              <h4>Coffee Cup</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+              <h4>Brew Plans</h4>
+              <p>Brew Plans is a native mobile app for coffee connoisseurs that allow users to create, view, update, and delete recipes. In addition, Brew Plans provides recipes for new users, detailing how to create tried and trusted coffee recipes.</p>
+              <span className="categories"><i className="fa fa-tag" />Built with React Native, NodeJS, PostgreSQL, SQLite, Firebase</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://github.com/Lambda-School-Labs/brew-plans-fe">Code base</a>
+              {/* <a  href ="https://www.notion.so/Brew-Plans-84229482fc5d43db823089c26b0e1882">Product Canvas</a> */}
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-01 End */}
-          <div id="modal-02" className="popup-modal mfp-hide">
+          {/* <div id="modal-02" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
             <div className="description-box">
               <h4>Console</h4>
@@ -149,16 +150,16 @@ class Portfolio extends Component{
               <a href="http://www.behance.net">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-02 End */}
+          </div>modal-02 End */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
             <div className="description-box">
-              <h4>Judah</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding</span>
+              <h4>SpoofMail</h4>
+              <p>SpoofMail is a web application for those who are tired of having to relinquish their personal email address every time they create a new account online. SpoofMail automatically generates burner addresses which our algorithm scans and automatically accepts and verifies your "agreement"</p>
+              <span className="categories"><i className="fa fa-tag" />Built with React, Express, Vuze</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://app.netlify.com/sites/spoofmail/overview">Check it out</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
